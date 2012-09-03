@@ -1,0 +1,21 @@
+{
+  "name": "nashboard-server",
+  "description": "A server to receive results via socket.io from Nashboard Clients. It then creates another socket.io connection for web requests to display the results.",
+  "version": "0.0.1",
+  "main": "index",
+  "author": {
+    "name": "Dyson Simmons",
+    "email": "<dyson@burnet.edu.au>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dyson/nashboard-server.git"
+  },
+  "dependencies": {
+    "socket.io": "0.9.x",
+    "nconf": "~0.6.4"
+  },
+  "engines": {
+    "node": ">= 0.8.7"
+  },
+}
